@@ -2,34 +2,34 @@ import { Twitter, Linkedin, Github, File, Mail, Pencil } from "lucide-react";
 
 export default function Socials({ social }) {
   const socials = [
+    // {
+    //   link: "https://yashnirmal.hashnode.dev/",
+    //   icon: Pencil,
+    //   text: "Blog",
+    // },
     {
-      link: "https://yashnirmal.hashnode.dev/",
-      icon: Pencil,
-      text: "Blog",
-    },
-    {
-      link: "https://twitter.com/YashNirmalDev",
+      link: "https://twitter.com/ShreyasMWDev",
       icon: Twitter,
       text: "Twitter",
     },
     {
-      link: "https://www.linkedin.com/in/yash-nirmal-062b68220/",
+      link: "https://www.linkedin.com/in/shreyaswaykar/",
       icon: Linkedin,
       text: "LinkedIn",
     },
     {
-      link: "http://github.com/yashnirmal",
+      link: "http://github.com/username-copied",
       icon: Github,
       text: "Github",
     },
 
     {
-      link: "mailto:yash15nirmal@gmail.com",
+      link: "mailto:shreyas.waykar123@gmail.com",
       icon: Mail,
       text: "Mail",
     },
     {
-      link: "https://drive.google.com/file/d/1_soAGi4t80xauRSvbBs0ZCmY5DcvPnfa/view?usp=sharing",
+      link: "https://drive.google.com/drive/u/0/folders/1YkWw7Gt2ra3ET50gj1BIwxsTQrc6D8e-",
       icon: File,
       text: "Resume",
     },
