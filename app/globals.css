@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+.css-blurry-gradient {
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  transform: translate(-70%, 0);
+  width: 800px;
+  height: 800px;
+	border-radius: 50% 22% 40% 80%;  
+	filter: blur(100px);
+  background: radial-gradient(circle at 20% 20%,rgba(76, 0, 255, 0.4), rgba(76, 0, 255, 0));
+  opacity: 0.2;
+}
+
+p,h1,h2,h3::selection{
+  background-color: 'rgb(99,102,241);'
+}
+
+@layer base {
+  
+  body {
+    @apply bg-zinc-900 text-gray-100;
+  }
+  
+  input, textarea{
+    @apply bg-zinc-800 text-gray-100 p-4 rounded-md ring-0 outline-zinc-800 decoration-zinc-800 outline-[1px] ;
+  }
+  
+  button {
+    @apply bg-zinc-700 py-3 px-5 rounded-md;
+  }
+}
+
+
+@layer components{
+  .highlight {
+    @apply underline decoration-2 decoration-blue-500;
+  }
+}
