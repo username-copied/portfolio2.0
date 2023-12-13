@@ -40,10 +40,10 @@ export default function Home() {
     setIsSending(true);
     emailjs
       .sendForm(
-        "service_s1cmwbq",
-        "template_jhqu8sm",
+        "service_1bg9coh",
+        "template_od167zf",
         form.current,
-        "WS1jM-fGVkCOgILjX"
+        "SvpgvA-YXx7ZuqXmp"
       )
       .then(
         (result) => {
